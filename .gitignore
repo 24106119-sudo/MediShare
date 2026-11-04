@@ -1,0 +1,33 @@
+
+# Environment files
+.env
+.env.*
+!.env.example
+**/.env
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+out/
+
+# Gradle
+.gradle/
+**/.gradle/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database backups
+*.sql.bak
